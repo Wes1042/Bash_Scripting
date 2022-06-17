@@ -1,0 +1,4 @@
+mktemp                      <--- created a temp file in the local directory 
+mktemp test.XXXXX           <---- Creates a temp file with the X being randomized
+mktemp -t test.XXXX         <---- the t option creates the file in the /tmp directory
+mktemp -d                   <---- Creates a directory

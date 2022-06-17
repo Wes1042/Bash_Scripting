@@ -1,0 +1,2 @@
+tee filename                <---- sends data to STDOUT aka console and redirects to a file (it will overwrite if the file exist)
+tee -a filename             <---- the -a option will append the data to the file
